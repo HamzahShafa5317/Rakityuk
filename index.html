@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html lang="id">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>RakitYuk</title>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Inter&display=swap" rel="stylesheet">
   <style>
     * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+      margin: 0; padding: 0; box-sizing: border-box;
     }
 
     body {
@@ -21,14 +18,8 @@
     }
 
     header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+      display: flex; justify-content: space-between; align-items: center;
       margin-bottom: 40px;
-    }
-
-    header img {
-      height: 40px;
     }
 
     nav a {
@@ -47,10 +38,8 @@
     }
 
     .hero {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
+      display: flex; justify-content: space-between;
+      align-items: center; flex-wrap: wrap;
       margin-bottom: 40px;
     }
 
@@ -65,8 +54,7 @@
     }
 
     .hero-text p {
-      margin-bottom: 20px;
-      line-height: 1.5;
+      margin-bottom: 20px; line-height: 1.5;
     }
 
     .btn-konsul {
@@ -90,12 +78,11 @@
       border: 2px solid white;
       width: 40px;
       height: 40px;
-      margin-right: -10px;
+      margin-left: -10px;
     }
 
     .section {
-      display: flex;
-      justify-content: space-between;
+      display: flex; justify-content: space-between;
       flex-wrap: wrap;
       margin-top: 40px;
     }
@@ -109,31 +96,68 @@
     }
 
     .section-box img {
-      width: 100%;
+      width: 90%;
       border-radius: 10px;
+      display: block;
+      margin: auto;
     }
 
     .testimonials {
       margin-top: 40px;
       background: #2e003e;
-      padding: 20px;
+      padding: 30px;
       border-radius: 20px;
     }
 
     .testimonials h2 {
-      margin-bottom: 20px;
+      font-size: 22px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .testimonials p {
+      text-align: center;
+      font-size: 14px;
+      margin-bottom: 30px;
+      color: #ccc;
+    }
+
+    .testimonial-list {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 15px;
     }
 
     .testimonial-item {
       background: #3a004d;
       border-radius: 15px;
-      padding: 15px;
-      margin-bottom: 15px;
+      padding: 20px;
+      width: 30%;
+      color: white;
+      font-size: 14px;
+      box-shadow: 0 0 10px rgba(199, 78, 248, 0.2);
+    }
+
+    .testimonial-item strong {
+      display: block;
+      margin-top: 15px;
+    }
+
+    .testimonial-item img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin-top: 10px;
+    }
+
+    .star {
+      color: gold;
     }
   </style>
 </head>
-
 <body>
+
   <header>
     <img src="logo.jpg" alt="Logo RakitYuk">
     <nav>
@@ -151,7 +175,12 @@
       <button class="btn-konsul">Konsultasi</button>
       <button class="btn-konsul" style="background: transparent; border: 1px solid white;">Cari Perangkat</button>
       <div class="avatars">
-        <img src="avatar.jpg">
+        <img src="avatar2.jpg">
+        <img src="avatar3.jpg">
+        <img src="avatar4.jpg">
+        <img src="avatar5.jpg">
+        <img src="avatar6.jpg">
+        <img src="avatar7.jpg">
         <span style="margin-left: 10px;">400 orang online</span>
       </div>
     </div>
@@ -161,29 +190,39 @@
   <section class="section">
     <div class="section-box">
       <h3>Komponen</h3>
-      <img src="RTX3060.jpg" alt="Komponen" width="300">
+      <img src="RTX3060.jpg" alt="Komponen">
     </div>
     <div class="section-box">
       <h3>Rekomendasi Laptop</h3>
-      <img src="novocomputer.jpg" alt="Laptop" width="300">
+      <img src="novocomputer.jpg" alt="Laptop">
     </div>
   </section>
 
   <section class="testimonials">
     <h2>Apa yang dikatakan klien kami</h2>
-    <div class="testimonial-item">
-      <strong>Wulan Tika</strong><br>
-      "Website ini user-friendly, fiturnya lengkap, dan sangat membantu saya dalam merakit PC."
-    </div>
-    <div class="testimonial-item">
-      <strong>Yusuf Raditya</strong><br>
-      "Senang bisa konsultasi langsung dan dapat rekomendasi perangkat yang tepat."
-    </div>
-    <div class="testimonial-item">
-      <strong>Adel Nugrah</strong><br>
-      "Tampilan UI-nya keren dan responsif! Suka dengan pilihan komponen-nya."
+    <p>Lihat apa yang pelanggan kami katakan tentang kami. Ini sangat penting bagi kami.<br>Seberapa baik atau buruknya akan kami jadikan bahan evaluasi untuk menjadikan RakitYuk lebih baik.</p>
+    
+    <div class="testimonial-list">
+      <div class="testimonial-item">
+        <div class="star">⭐️⭐️⭐️⭐️⭐️</div>
+        <p>“I know in real-time where the money is spent, and I don’t have to kind out the company’s credit card anymore. What a relief!”</p>
+        <strong>Denny Huqston</strong>
+        <img src="avatar3.jpg" alt="Denny">
+      </div>
+      <div class="testimonial-item">
+        <div class="star">⭐️⭐️⭐️⭐️⭐️</div>
+        <p>“VISUALS are much better. The improvements in optics and resolution and much more than a modern console generation leap.”</p>
+        <strong>Vani Pandey</strong>
+        <img src="avatar4.jpg" alt="Vani">
+      </div>
+      <div class="testimonial-item">
+        <div class="star">⭐️⭐️⭐️⭐️⭐️</div>
+        <p>“I can actually see the improvement in the graphics, not having the external sensors is a big plus.”</p>
+        <strong>Mily Singh</strong>
+        <img src="avatar5.jpg" alt="Mily">
+      </div>
     </div>
   </section>
-</body>
 
+</body>
 </html>
